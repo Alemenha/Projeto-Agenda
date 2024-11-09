@@ -1,0 +1,46 @@
+# Dependências do Node.js
+node_modules/
+
+# Diretórios gerados pelo Next.js
+/.next/
+/out/
+/build
+
+# Arquivos de configuração de ambientes
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Arquivos de log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testes
+/coverage
+
+# Sistema de arquivos
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos temporários e de backup
+*~
+*.bak
+*.swp
+*.tmp
+
+# Arquivos de configuração do IDE
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Arquivos de compilação
+*.o
+*.out
+*.class
+
+# Outros arquivos a serem ignorados
+*.pem
+"node_modules/" 
